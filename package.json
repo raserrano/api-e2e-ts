@@ -4,7 +4,9 @@
   "description": "CucumberJS + TypeScript + API tests",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cucumber-js",
+    "test:dry-run": "cucumber-js -d",
+    "compile": "tsc step-definitions/*.ts"
   },
   "repository": {
     "type": "git",
