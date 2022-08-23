@@ -6,7 +6,8 @@
   "scripts": {
     "test": "cucumber-js",
     "test:dry-run": "cucumber-js -d",
-    "compile": "tsc step-definitions/*.ts"
+    "compile": "tsc step-definitions/*.ts",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -25,15 +26,19 @@
     "url": "https://github.com/raserrano/api-e2e-ts/issues"
   },
   "homepage": "https://github.com/raserrano/api-e2e-ts#readme",
-  "dependencies": {
-    "typescript": "^4.7.4"
-  },
   "devDependencies": {
     "@cucumber/cucumber": "^8.5.1",
     "@types/chai": "^4.3.3",
     "@types/cucumber": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
     "chai": "^4.3.6",
     "cucumber-pretty": "^6.0.1",
-    "ts-node": "^10.9.1"
+    "eslint": "^8.22.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
   }
 }
