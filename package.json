@@ -1,0 +1,37 @@
+{
+  "name": "api-e2e-ts",
+  "version": "1.0.0",
+  "description": "CucumberJS + TypeScript + API tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raserrano/api-e2e-ts.git"
+  },
+  "keywords": [
+    "cucumberjs",
+    "typescript",
+    "api",
+    "test",
+    "automation"
+  ],
+  "author": "raserrano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raserrano/api-e2e-ts/issues"
+  },
+  "homepage": "https://github.com/raserrano/api-e2e-ts#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.1",
+    "@types/chai": "^4.3.3",
+    "@types/cucumber": "^7.0.0",
+    "chai": "^4.3.6",
+    "cucumber-pretty": "^6.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
